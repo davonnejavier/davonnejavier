@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Application</title>
+	<link rel="stylesheet" type="text/css" href="">
+</head>
+
+<style type="text/css">
+	
+</style>
+<body>
+	
+		<br>
+		<center>
+		<table>	
+	<form>
+		<th colspan>Username: <input type="text"	 id="uname" class="asd"><br>
+		Password: <input type="password" id="pswrd" class="dsa><br></th>
+
+
+	<input type="submit" onclick="login()" value="LOGIN" class="Davonne">
+	</form>
+	</center>
+		</table>	
+	<script type="text/javascript">
+		
+		function login(){
+			var duname = "20193939";
+			var dpswrd = "Javier";
+
+			uname = document.getElementById('uname').value;
+			pswrd = document.getElementById('pswrd')value;
+
+			if (duname == username  && dpswrd == password){
+				alert("Access Granted");
+			}
+			else if (dpswrd == password){
+				alert("Invalid username");
+			}
+			else if(duname == username){
+				alert("Invalid Password");
+			}
+			else{
+				alert("Access Denied");
+			}
+		}
+	</script>
+</body>
+</html>
